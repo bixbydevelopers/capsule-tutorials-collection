@@ -1,0 +1,21 @@
+capsule {
+  id (playground.inputviewstructure)
+  version (1.0.0)
+  format(3)
+  runtime-version (2)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  capsule-imports {
+    import (viv.core) {
+      as (core)
+    }
+  }
+  default-action (GetContent)
+  store-countries {
+    all
+  }
+  store-sections {
+    section (GamesAndFun)
+  }
+}

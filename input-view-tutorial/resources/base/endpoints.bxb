@@ -1,0 +1,12 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetContent) {
+      accepted-inputs (searchTerm)
+      local-endpoint (GetContent.js)
+    }
+    action-endpoint (GetSearchTerms) {
+      accepted-inputs (searchTerm, nonSearchTerm)
+      local-endpoint (GetSearchTerms.js)
+    }
+  }
+}

@@ -1,0 +1,15 @@
+action (GetContent) {
+  type (Search)
+  collect {
+    input (searchTerm) {
+      type (SearchTerm)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal:GetSearchTerms
+        }
+      }
+    }
+  }
+  output (Content)
+}
