@@ -1,0 +1,9 @@
+train (t-9piveju53ujhp3f8wiu1ni3ij) {
+  utterance ("[g:GetContent] Tell me a fact about (cat)[v:SearchTerm:Cat]")
+  plan (Y2BmUC3ISaxML8ovzUvRy8wrKC0py0wtLy4pKk0uKS1K1XPOzytJzSth0MCvzD21hEiVwamJRckZIalFuQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1614985001873)
+}
+train (t-9iohed3ioywa33m2726hvdjb7) {
+  utterance ("[g:SearchTermStructure:prompt] (Dog)[v:SearchTerm:Dog]")
+  last-modified (1615587692894)
+}

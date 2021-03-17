@@ -1,0 +1,4 @@
+train (t-ns2v19n81jjpnrsv7p0lyufuk) {
+  utterance ("[g:SearchTermStructure:prompt] (foo bar)[v:NonSearchTerm]")
+  last-modified (1615587508958)
+}

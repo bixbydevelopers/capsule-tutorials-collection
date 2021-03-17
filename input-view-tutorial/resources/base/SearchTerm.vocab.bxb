@@ -1,0 +1,5 @@
+vocab(SearchTerm){
+  "Cat" {"Cat" "cat", "cats"}
+  "Dog" {"Dog" "dog", "dogs"}
+  "Other" {"Other" "other", "others, "lizard", lizards"}
+}

@@ -1,0 +1,9 @@
+enum (SearchTerm) {
+  description (Term to Search for)
+  symbol (Cat)
+  symbol (Dog)
+  symbol (Other)
+  features {
+    transient
+  }
+}

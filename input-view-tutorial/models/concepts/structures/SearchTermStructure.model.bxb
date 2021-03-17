@@ -1,0 +1,17 @@
+structure (SearchTermStructure) {
+  description (__DESCRIPTION__)
+  property (searchTerm) {
+    type (SearchTerm)
+    min (Required) max (One)
+  }
+  property (icon) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (description) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+}

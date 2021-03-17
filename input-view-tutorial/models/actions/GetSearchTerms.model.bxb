@@ -1,0 +1,15 @@
+action (GetSearchTerms) {
+  type (Search)
+  collect{
+    input (searchTerm){
+      type (SearchTerm)
+      min (Optional) max (One)
+    }
+    input (nonSearchTerm){
+      type (NonSearchTerm)
+      min (Optional) max (One)
+    }
+  }
+  description (__DESCRIPTION__)
+  output (SearchTermStructure)
+}
