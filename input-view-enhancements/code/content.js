@@ -15,6 +15,22 @@ module.exports = [
     tags: ["cat"],
   },
   {
+    text:
+      "Cat's love sleeping! In fact, they spend around 70% of their entire lives sleeping.",
+    image: {
+      url: "images/moxie.jpg",
+    },
+    tags: ["cat"],
+  },
+  {
+    text:
+      "On October 18th, 1963, Felicette, also known as the 'Astrocat', was the first cat to go to space!",
+    image: {
+      url: "images/moxie.jpg",
+    },
+    tags: ["cat"],
+  },
+  {
     text: "Did you know that dogs have three eyelids?",
     tags: ["dog"],
   },

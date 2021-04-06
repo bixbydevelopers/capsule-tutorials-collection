@@ -1,3 +1,3 @@
 text (NonSearchTerm) {
-  description (__DESCRIPTION__)
+  description (used to capture non enum search terms)
 }
