@@ -1,0 +1,15 @@
+capsule {
+  id (playground.hello_world)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  store-countries {
+    all
+  }
+  store-sections {
+    section (GamesAndFun)
+  }
+  runtime-version (5)
+}

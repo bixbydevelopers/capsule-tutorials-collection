@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: SayThis (this)
+  template("#{title(this)}")
+}

@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (SaySomething) {
+      accepted-inputs (whatUserSaid)
+      local-endpoint (saySomething.js)
+    }
+  }
+}

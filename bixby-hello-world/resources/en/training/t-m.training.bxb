@@ -1,0 +1,5 @@
+train (t-mp3nsjn4ol5ygkg8u0c7852qv) {
+  utterance ("[g:SaySomething] hi bixby, say (hello world)[v:WhatUserSaid]")
+  plan (Y2BmkCvISaxML8ovzUvRy0jNycmPL88vyknRC06sDMnILGZQxi0fnJ+bWpKRmZeOU1F4RmJJaHFqUXBiZgoDEwMjEDMASUYGEIDyAQ==)
+  last-modified (1565292256021)
+}

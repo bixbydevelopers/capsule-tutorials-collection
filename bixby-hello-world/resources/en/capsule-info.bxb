@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Hello World)
+  description (Hello World Sample Capsule)
+  developer-name (Samsung)
+  icon-asset (/images/hello-world-icon.png)
+  dispatch-name(Hello World)
+  search-keywords {
+    keyword (hello)
+    keyword (world)
+    keyword (starter)
+  }
+}
