@@ -11,8 +11,8 @@ A collection of Bixby Capsules used for our Bixby Tutorials
 ---
 
 ## Capsule Tutorials
-[Bixby Hello World](../../tree/main/bixby-hello-world) - Bixby Hello World
-[Input View Enhancement Series](../../tree/main/input-view-enhancements) - Input View Enhancement Series
+- [Bixby Hello World](../../tree/main/bixby-hello-world) - Bixby Hello World
+- [Input View Enhancement Series](../../tree/main/input-view-enhancements) - Input View Enhancement Series
 
 ---
 
