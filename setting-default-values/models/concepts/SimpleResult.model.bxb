@@ -1,3 +1,6 @@
 text (SimpleResult) {
   description (Simple Result)
+  features {
+    transient
+  }
 }
