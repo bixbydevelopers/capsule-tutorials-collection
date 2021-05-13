@@ -12,6 +12,7 @@ A collection of Bixby Capsules used for our Bixby Tutorials
 
 ## Capsule Tutorials
 - [Bixby Hello World](../../tree/main/bixby-hello-world) - Bixby Hello World
+- [Setting Default Values](../../tree/main/setting-default-values) - Setting Default Values 
 - [Input View Enhancement Series](../../tree/main/input-view-enhancements) - Input View Enhancement Series
 
 ---
