@@ -1,0 +1,5 @@
+action (StructureDefaultValue) {
+  description (demo using default value with a structure)
+  type (Search)
+  output (StructureForInit) 
+}

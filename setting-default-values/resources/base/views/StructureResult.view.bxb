@@ -1,0 +1,6 @@
+result-view {
+  match: StructureForInit(this)
+  message {
+      template ("#{value(this.simpleResult)}")   
+    }
+  }

@@ -1,0 +1,8 @@
+structure (StructureForInit) {
+  description (Structure to show default-value)
+  property (simpleResult) {
+    type (SimpleResult)
+    min (Required) max (One)
+    default-value ("Hello from Structure")
+  }
+}

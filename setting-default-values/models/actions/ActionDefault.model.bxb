@@ -1,0 +1,19 @@
+action (ActionDefault) {
+  description (Simple default-init example)
+  type (Search)
+  collect {
+    input (simpleResult) {
+      type (SimpleResult)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: SimpleResult
+          value: SimpleResult("Hello from Action")
+        }
+      }
+    }
+  }
+  output (SimpleResult) {
+     evaluate: $expr(simpleResult)
+  }
+}

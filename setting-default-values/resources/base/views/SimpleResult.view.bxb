@@ -1,0 +1,6 @@
+result-view {
+  match: SimpleResult(this)
+  message {
+      template ("#{value(this)}")   
+    }
+  }

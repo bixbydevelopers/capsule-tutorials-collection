@@ -1,0 +1,12 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (StructureDefaultValue) {
+      accepted-inputs ()
+      local-endpoint (ReturnEmptyStructure.js)
+    }
+    action-endpoint (CodeDefaultValue) {
+      accepted-inputs ()
+      local-endpoint (ReturnValue.js)
+    }
+  }
+}

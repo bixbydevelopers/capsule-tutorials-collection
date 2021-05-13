@@ -1,0 +1,5 @@
+action (CodeDefaultValue) {
+  description (demo using default value from code)
+  type (Search)
+  output (SimpleResult) 
+}

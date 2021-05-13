@@ -1,0 +1,7 @@
+capsule-info {
+  display-name (default-init demo)
+  dispatch-name (default-init demo)
+  developer-name (Samsung)
+  icon-asset (icon.png)
+  description ("__DESCRIPTION__")
+}
