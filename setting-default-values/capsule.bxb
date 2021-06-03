@@ -1,5 +1,4 @@
 capsule {
-  // id (example.ssml)
   id (playground.defaultvalues)
   version (21.1.1301)
   format (3)
