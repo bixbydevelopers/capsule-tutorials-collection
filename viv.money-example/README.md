@@ -1,20 +1,22 @@
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
   <br/>
-  <h1 align="Center">Bixby Sample Tutorials Collection</h1>
+  <h1 align="Center">Bixby Using the viv.money Library Capsule</h1>
 </p>
 
-## Overview
+## Description and Usage
 
-A collection of Bixby Capsules used for our Bixby Tutorials
+This capsule demonstrates how to use the viv.money Library Capsule
 
----
+The capsule is a simple tip calculator. To try it out, say something like:
 
-## Capsule Tutorials
-- [Bixby Hello World](../../tree/main/bixby-hello-world) - Bixby Hello World
-- [Setting Default Values](../../tree/main/setting-default-values) - Setting Default Values 
-- [Input View Enhancement Series](../../tree/main/input-view-enhancements) - Input View Enhancement Series
-- [Using viv.money](../../tree/main/viv.money-example) - Using the viv.money Library Capsule
+`What's a 20% tip on $55` 
+
+`What's an 18% tip on €30?`
+
+## Tutorial Video
+
+Coming Soon
 
 ---
 

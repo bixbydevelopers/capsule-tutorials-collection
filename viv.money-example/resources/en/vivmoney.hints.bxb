@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    hint (Ask Money Sample Capsule what's a 15% tip on $33)
+    hint (Ask Money Sample Capsule what's a 20% tip on $57.50)
+    hint (Ask Money Sample Capsule what's a 25% tip on $42)
+  }
+}

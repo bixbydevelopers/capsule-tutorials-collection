@@ -1,0 +1,15 @@
+action (GetTip) {
+  type (Calculation)
+  description (Calculate Tip)
+  collect {
+    input (tipPercent) {
+      type (TipPercent)
+      min (Required) max (One)
+    }
+    input (billTotal) {
+      type (BillTotal)
+      min (Required) max (One)
+    }
+  }
+  output (Tip)
+}

@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetTip) {
+      accepted-inputs (tipPercent, billTotal)
+      local-endpoint (CalculateTip.js)
+    }
+  }
+}

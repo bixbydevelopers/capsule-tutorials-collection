@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (Viv.Money Sample Capsule)
+  description (Sample Capsule to show how to use the viv.money library)
+  developer-name (Samsung)
+  website-url (https://example.com/)
+  icon-asset (/images/icons/gratuity.png)
+  dispatch-name(Money Sample Capsule)
+  search-keywords {
+    keyword (Money)
+  }
+}

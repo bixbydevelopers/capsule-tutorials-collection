@@ -1,0 +1,4 @@
+structure (BillTotal){
+  description (Bill total)
+  role-of(money.Currency)
+}

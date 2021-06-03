@@ -1,0 +1,4 @@
+decimal (TipPercent) {
+  description (Percent to tip)
+  extends (measurement.Percentage)
+}

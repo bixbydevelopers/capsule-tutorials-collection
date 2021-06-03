@@ -1,0 +1,4 @@
+structure (Tip){
+  description (Calculated tip)
+  role-of (money.Currency)
+}

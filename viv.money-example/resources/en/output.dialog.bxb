@@ -1,0 +1,9 @@
+dialog (Result) {
+ match: Tip (tip) {
+   from-output: GetTip {
+     from-input: BillTotal (billTotal)
+     from-input: TipPercent (tipPercent)
+   }
+ }
+  template ("For a ${value(billTotal)} bill, a tip of ${value(tipPercent)} is ${value(tip)}")
+}

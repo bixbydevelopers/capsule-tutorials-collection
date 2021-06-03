@@ -1,0 +1,4 @@
+train (t-v17sty2bagsrbs3lpxhvk0y5s) {
+  utterance ("[g:GetTip] What's a (15)[v:TipPercent:15]% tip on {[g:BillTotal] ($)[v:money.PrefixSymbol:$](33)[v:money.CurrencyValue:33]}\n")
+  last-modified (1622748945267)
+}

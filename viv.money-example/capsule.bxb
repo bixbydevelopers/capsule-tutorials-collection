@@ -1,0 +1,23 @@
+capsule {
+  id (example.vivmoney)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  capsule-imports {
+    import (viv.money) {
+      as (money) version (2.22.49)
+    }
+    import (viv.measurement) {
+      as (measurement) version (2.14.13)
+    }
+  }
+  store-sections {
+    section (BusinessAndFinance)
+  }
+  store-countries {
+    all
+  }
+  runtime-version (9) 
+}
