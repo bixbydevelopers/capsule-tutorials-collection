@@ -20,6 +20,9 @@ Part 1 - UI Enhancement with Structures
 Part 2 - UX Improvement with Bad Inputs
 [![Watch the video](http://i3.ytimg.com/vi/uYH-ncBNQVg/maxresdefault.jpg)](https://youtu.be/uYH-ncBNQVg)
 
+Part 3 - Using Errors to Handle Bad Inputs
+[![Watch the video](http://i3.ytimg.com/vi/OYTPsHSGN1E/maxresdefault.jpg)](https://youtu.be/OYTPsHSGN1E)
+
 ---
 
 ## Additional Resources

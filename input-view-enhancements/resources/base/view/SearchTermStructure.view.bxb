@@ -3,7 +3,7 @@ input-view{
     from-output: GetSearchTerms (action)
   }
 
-  message("[#{title(action.nonSearchTerm)} is not a valid animal. ]Which of these cute animals would you like a fact on?")
+  message("Which of these cute animals would you like a fact on?")
 
   render{
     selection-of (this){

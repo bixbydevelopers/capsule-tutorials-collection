@@ -1,4 +1,5 @@
 action (GetSearchTerms) {
+  description (Gets better looking search terms for the user)
   type (Search)
   collect{
     input (searchTerm){
@@ -10,6 +11,18 @@ action (GetSearchTerms) {
       min (Optional) max (One)
     }
   }
-  description (__DESCRIPTION__)
-  output (SearchTermStructure)
+  output (SearchTermStructure){
+    throws{
+      error (invalidSearchTerm) {
+        on-catch{
+          replan{
+            dialog("[Sorry, I don't have any facts about #{value(nonSearchTerm)}.]")
+            intent{
+              goal:GetSearchTerms
+            }
+          }
+        }
+      }
+    }
+  }
 }
