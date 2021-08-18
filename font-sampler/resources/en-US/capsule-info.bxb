@@ -1,0 +1,8 @@
+capsule-info {
+  display-name (Bixby Font Sampler)
+  developer-name (Samsung)
+  description ("Explore Bixby's Fonts")
+  dispatch-name (Font Sampler)
+  // Set your own image for your capsule's icon
+  icon-asset (images/icons/bixby_launcher.png)
+}

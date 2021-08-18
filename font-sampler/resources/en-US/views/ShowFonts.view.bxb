@@ -1,0 +1,120 @@
+result-view {
+  match: _ {
+    from-output: ShowFonts
+  }
+
+  message {
+    template ("Here are Bixby's fonts")
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              value ("Title Fonts:")
+              style (Title)
+            }
+          }
+          spacer
+          single-line {
+            text {
+              value ("Title_XS Font")
+              style (Title_XS)
+            }
+          }
+          single-line {
+            text {
+              value ("Title_S Font")
+              style (Title_S)
+            }
+          }
+          single-line {
+            text {
+              value ("Title_M Font")
+              style (Title_M)
+            }
+          }
+          single-line {
+            text {
+              value ("Title_L Font")
+              style (Title_L)
+            }
+          }
+          single-line {
+            text {
+              value ("Title_XL Font")
+              style (Title_XL)
+            }
+          }
+          single-line {
+            text {
+              value ("Title_XL_Soft Font")
+              style (Title_XL_Soft)
+            }
+          }
+          single-line {
+            text {
+              value ("Title_XXL")
+              style (Title_XXL)
+            }
+          }
+          single-line {
+            text {
+              value ("Title_XXL_Soft")
+              style (Title_XXL_Soft)
+            }
+          }
+          divider
+          single-line {
+            text {
+              value ("Detail Fonts:")
+              style (Title_L)
+            }
+          }
+          spacer
+          single-line {
+            text {
+              value ("Detail_M Font")
+              style (Detail_M)
+            }
+          }
+          single-line {
+            text {
+              value ("Detail_M_Soft Font")
+              style (Detail_M_Soft)
+            }
+          }
+          single-line {
+            text {
+              value ("Detail_L Font")
+              style (Detail_L)
+            }
+          }
+          single-line {
+            text {
+              value ("Detail_L_Soft Font")
+              style (Detail_L_Soft)
+            }
+          }
+          divider
+          single-line {
+            text {
+              value ("Legal Fonts:")
+              style (Title_L)
+            }
+          }
+          spacer
+          single-line {
+            text {
+              value ("Legal Font")
+              style (Legal)
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

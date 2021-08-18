@@ -1,0 +1,6 @@
+name (Input) {
+  description (Input to echo)
+  features {
+    transient
+  }
+}

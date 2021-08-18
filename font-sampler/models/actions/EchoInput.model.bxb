@@ -1,0 +1,15 @@
+action (EchoInput) {
+  type(Search)
+  description (Echo Input)
+  collect {
+    input (input) {
+      type (Input)
+      min (Required) max (One)
+    }
+  }
+  output (Input) {
+    evaluate {
+      $expr (input)
+    }
+  }
+}

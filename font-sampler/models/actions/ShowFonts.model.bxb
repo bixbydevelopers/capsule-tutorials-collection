@@ -1,0 +1,7 @@
+action (ShowFonts) {
+  type (Calculation)
+  description (Show Fonts on Screen)
+  output (viv.core.Text) {
+    evaluate {}
+  }
+}

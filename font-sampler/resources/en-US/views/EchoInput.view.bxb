@@ -1,0 +1,103 @@
+result-view {
+  match: Input (input) {
+    from-output: EchoInput
+  }
+  message {
+    template ("Here is the text in different Bixby fonts")
+  }
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              value ("Title Fonts:")
+              style (Title_M)
+            }
+          }
+          spacer
+          paragraph {
+            value ("Title_XS: ${value(input)}")
+            style (Title_XS)
+          }
+          divider
+          paragraph {
+            value ("Title_S: ${value(input)}")
+            style (Title_S)
+          }
+          divider        
+          paragraph {
+            value ("Title_M: ${value(input)}")
+            style (Title_M)
+          }
+          divider  
+          paragraph {
+            value ("Title_L: ${value(input)}")
+            style (Title_L)
+          }
+          divider          
+          paragraph {
+            value ("Title_XL: ${value(input)}")
+            style (Title_XL)
+          }
+          divider       
+          paragraph {
+            value ("Title_XL_Soft: ${value(input)}")
+            style (Title_XL_Soft)
+          }
+          divider      
+          paragraph {
+            value ("Title_XXL: ${value(input)}")
+            style (Title_XXL)
+          }
+          divider 
+          paragraph {
+            value ("Title_XXL_Soft: ${value(input)}")
+            style (Title_XXL_Soft)
+          }
+          spacer
+          divider
+          single-line {
+            text {
+              value ("Detail Fonts:")
+              style (Title_L)
+            }
+          }
+          divider 
+          paragraph {
+            value ("Detail_M: ${value(input)}")
+            style (Detail_M)
+          }
+          divider 
+          paragraph {
+            value ("Detail_M_Soft: ${value(input)}")
+            style (Detail_M_Soft)
+          }
+          divider 
+          paragraph {
+            value ("Detail_L: ${value(input)}")
+            style (Detail_L)
+          }
+          divider 
+          paragraph {
+            value ("Detail_L_Soft: ${value(input)}")
+            style (Detail_L_Soft)
+          }
+          spacer
+          divider
+          single-line {
+            text {
+              value ("Legal Fonts:")
+              style (Title_L)
+            }
+          }
+          divider 
+          paragraph {
+            value ("Legal: ${value(input)}")
+            style (Legal)
+          }
+        }
+      }
+    }
+  }
+}
