@@ -1,14 +1,24 @@
-# New Capsule
+<p align="Center">
+  <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
+  <br/>
+  <h1 align="Center">Bixby Font Sampler</h1>
+</p>
 
-Welcome to your New Capsule!
+## Description and Usage
 
-## Creating your Capsule
+This capsule allows you to view all of the available Bixby fonts
 
-Learn about creating your capsule by following the [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start)
+To view all of the Bixby fonts, say
 
-## Submitting Your Capsule to the Marketplace
+`Show fonts` 
 
-Learn about submitting your capsule to the [Marketplace](https://bixbydevelopers.com/dev/docs/dev-guide/developers/deploying.can-submission#about-the-marketplace)
+To enter sample text and see it in all the Bixby fonts, say
+
+`Show text`
+
+## Tutorial Video
+
+Coming Soon
 
 ---
 
@@ -16,20 +26,30 @@ Learn about submitting your capsule to the [Marketplace](https://bixbydevelopers
 
 ### Your Source for Everything Bixby
 
-* [Bixby Developer Center](https://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
+- [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
+- [Bixby News, Blogs and Tutorials](https://bixby.developer.samsung.com/) - Bixby News, Tutorials, Blogs and Events
 
 ### Guides & Best Practices
 
-* [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule
-* [Design Guides](https://bixbydevelopers.com/dev/docs/dev-guide/design-guides) - Best practices for designing your capsules
-* [Developer Guides](https://bixbydevelopers.com/dev/docs/dev-guide/developers) - Guides that take you from design and modeling all the way through deployment of your capsules
+- [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule
+- [Design Guides](https://bixbydevelopers.com/dev/docs/dev-guide/design-guides) - Best practices for designing your capsules
+- [Developer Guides](https://bixbydevelopers.com/dev/docs/dev-guide/developers) - Guides that take you from design and modeling all the way through deployment of your capsules
 
-### Video Guides
+### Bixby Videos
 
-* [Introduction to Bixby](https://youtu.be/DFvpK4PosvI) - Bixby and the New Exponential Frontier of Intelligent Assistants
-* [Bixby Fundamentals](https://bixby.developer.samsung.com/newsroom/en-us/Teaching-Bixby-Fundamentals-What-You-Need-to-Know) - Bixby Fundamentals: What You Need to Know
+- [Bixby Developers YouTube Channel](https://www.youtube.com/c/bixbydevelopers) - Tutorial videos, Presentations, Capsule Demos and more
+
+### Bixby Podcast
+
+- [Bixby Developers Chat](http://bixbydev.buzzsprout.com/) - Voice, Conversational AI and Bixby discussions
+
+### Bixby on Social Media
+
+- [@BixbyDevelopers](https://twitter.com/bixbydevelopers) - Twitter
+- [Facebook](https://facebook.com/BixbyDevelopers)
+- [Instagram](https://www.instagram.com/bixbydevelopers/)
 
 ### Need Support?
 
-* Have a feature request? Please suggest it in our [Support Community](https://support.bixbydevelopers.com/hc/en-us/community/topics/360000183273-Feature-Requests) to help us prioritize.
-* Have a technical question? Ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/bixby) with tag “bixby”
+- Have a feature request? Please suggest it in our [Support Community](https://support.bixbydevelopers.com/hc/en-us/community/topics/360000183273-Feature-Requests) to help us prioritize.
+- Have a technical question? Ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/bixby) with tag “bixby”
