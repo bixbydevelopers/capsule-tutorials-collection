@@ -15,7 +15,7 @@ A collection of Bixby Capsules used for our Bixby Tutorials
 - [Setting Default Values](../../tree/main/setting-default-values) - Setting Default Values 
 - [Input View Enhancement Series](../../tree/main/input-view-enhancements) - Input View Enhancement Series
 - [Using viv.money](../../tree/main/viv.money-example) - Using the viv.money Library Capsule
-- [Using viv.money](../../tree/main/pizza-order) - Pizza Topping Ordering Example
+- [Pizza Ordering](../../tree/main/pizza-order) - Pizza Topping Ordering Example
 
 ---
 
