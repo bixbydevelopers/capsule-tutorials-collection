@@ -1,0 +1,25 @@
+input-view {
+  match: Topping (topping)
+
+  message {
+    template (What would you like on your pizza?)
+  }
+
+  render {
+    form {
+      // the intent that will be used when the form is submitted
+      on-submit {
+        goal: Topping
+        value: viv.core.FormElement(topping)
+      }
+      elements {
+        textarea {
+          id ("topping")
+          type (Topping)
+          label (What would you like on your pizza?)
+          value ("#{raw(topping)}")
+        }
+      }
+    }
+  }
+}

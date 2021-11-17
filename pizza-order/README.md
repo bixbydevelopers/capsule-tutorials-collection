@@ -1,21 +1,24 @@
 <p align="Center">
   <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
   <br/>
-  <h1 align="Center">Bixby Sample Tutorials Collection</h1>
+  <h1 align="Center">Bixby Pizza Ordering</h1>
 </p>
 
-## Overview
+## Description
 
-A collection of Bixby Capsules used for our Bixby Tutorials
+These capsules demonstrate how to capture multiple values into a single concept. These are companion capsules to the Bixby Tech Tip of the Week
 
----
+There are 2 capsules
+- Pizza Order 1 - simplest capsule, handles multiple values for a concept but values that are multiple words fail
+- Pizza Order 2 - a refactor of the first capsule which now handles multiple word values for concepts
 
-## Capsule Tutorials
-- [Bixby Hello World](../../tree/main/bixby-hello-world) - Bixby Hello World
-- [Setting Default Values](../../tree/main/setting-default-values) - Setting Default Values 
-- [Input View Enhancement Series](../../tree/main/input-view-enhancements) - Input View Enhancement Series
-- [Using viv.money](../../tree/main/viv.money-example) - Using the viv.money Library Capsule
-- [Pizza Ordering](../../tree/main/pizza-order) - Pizza Topping Ordering Examples (Multiple values for a single concept)
+# Usage:
+
+Open the simulator and run
+
+ `start`
+
+ and tell Bixby what pizza toppings you want
 
 ---
 

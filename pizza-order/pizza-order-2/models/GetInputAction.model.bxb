@@ -1,0 +1,11 @@
+action (GetInputAction) {
+  type(Search)
+  description (Echo Input)
+  collect {
+    input (topping) {
+      type (Topping)
+      min (Required) max (Many)
+    }
+  }
+  output (Topping)
+}

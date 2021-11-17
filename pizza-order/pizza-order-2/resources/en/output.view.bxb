@@ -1,0 +1,6 @@
+result-view {
+  match: Topping (topping)
+  message {
+    template("I will make a pizza with ${value(topping)}")
+  }
+}

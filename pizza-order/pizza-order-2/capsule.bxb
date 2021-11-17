@@ -1,5 +1,5 @@
 capsule {
-  id (example.pizzaorder)
+  id (example.pizzaorder2)
   version (0.1.0)
   format (3)
   targets {

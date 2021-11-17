@@ -1,0 +1,20 @@
+enum (Topping) {
+  description (pizza toppings)
+  features {
+   transient
+  }
+  symbol (pepperoni)
+  symbol (sausage)
+  symbol (ham)
+  symbol (chicken)
+  symbol (bacon)
+  symbol (mushrooms)
+  symbol (black olives)
+  symbol (onions)
+  symbol (green peppers)
+  symbol (garlic)
+  symbol (tomato)
+  symbol (basil)
+  symbol (cheese)
+  symbol (extra cheese)
+}
