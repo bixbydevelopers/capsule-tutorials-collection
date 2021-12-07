@@ -1,0 +1,6 @@
+dialog (Elicitation) {
+  match: GetInputAction~possibleInputs {
+    to-input: GetInputAction (action)
+  }
+  template("What would you like on your pizza?")
+}

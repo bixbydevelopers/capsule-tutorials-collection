@@ -1,0 +1,22 @@
+action (GetInputAction) {
+  type (Search)
+  description (Echo Input)
+  collect {
+    input-group (possibleInputs) {
+      requires (OneOrMoreOf)
+      collect {
+        input (topping) {
+          type (Topping)
+          min (Optional)
+          max (Many)
+        }
+        input (unknown) {
+          type (Unknown)
+          min (Optional)
+          max (Many)
+        }
+      }
+    }
+  }
+  output (Output)
+}

@@ -1,0 +1,11 @@
+structure (Output) {
+  description (Pizza topping output)
+  property (topping) {
+    type (Topping)
+    min (Optional) max (Many)
+  }
+  property (unknown) {
+    type (Unknown)
+    min (Optional) max (Many)
+  }  
+}
