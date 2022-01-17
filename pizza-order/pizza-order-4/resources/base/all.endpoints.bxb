@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetInputAction) {
+      accepted-inputs (topping,unknown,toppingStucture)
+      local-endpoint (toppingHandler.js)
+    }
+  }
+}

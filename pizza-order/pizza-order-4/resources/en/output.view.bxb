@@ -1,0 +1,6 @@
+result-view {
+  match: Output (output)
+  message {
+   template("[I will make a pizza with ${value(output.topping)}.][ We do not have ${value(output.unknown)} as a topping]")
+  }
+}

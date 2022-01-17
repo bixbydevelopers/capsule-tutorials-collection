@@ -1,0 +1,17 @@
+capsule {
+  id (example.pizzaorder4)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  store-countries {
+    all
+  }
+  runtime-version (9) {
+    overrides {
+      no-fallback-dialog-in-views (false)   
+      auto-on-click-for-list-of (true)
+    }
+  }
+}

@@ -6,12 +6,13 @@
 
 ## Description
 
-These capsules demonstrate how to capture multiple values into a single concept. These are companion capsules to the Bixby Tech Tip of the Week
+These capsules demonstrate how to capture multiple values into a single concept. These are companion capsules to the Bixby Tech Tip of the Week Videos
 
-There are 3 capsules
+There are 4 capsules
 - Pizza Order 1 - simplest capsule, handles multiple values for a concept but values that are multiple words fail
 - Pizza Order 2 - a refactor of the first capsule which now handles multiple word values for concepts
 - Pizza Order 3 - a refactor of the 2nd capsule which now handles unknown pizza toppings
+- Pizz Order 4 - a refactor of the 3rd capsule which now has an attractive UI
 
 # Usage:
 

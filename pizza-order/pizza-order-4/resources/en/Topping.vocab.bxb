@@ -1,0 +1,16 @@
+vocab (Topping) {
+  "pepperoni" {"pepperoni"}
+  "sausage" {"sausage"}
+  "ham" {"ham"}
+  "chicken" {"chicken"}
+  "bacon" {"bacon"}
+  "mushrooms" {"mushrooms" "mushroom"}
+  "onions" {"onions" "onion"}
+  "green peppers" {"green peppers" "green pepper"}
+  "black olives" {"black olives", "olives"}
+  "garlic" {"garlic"}
+  "tomato" {"tomato"}
+  "basil" {"basil" "fresh basil"}
+  "cheese" {"cheese"}
+  "extra cheese" {"extra cheese"}
+}

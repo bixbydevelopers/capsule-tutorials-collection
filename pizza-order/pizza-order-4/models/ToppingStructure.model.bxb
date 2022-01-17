@@ -1,0 +1,60 @@
+structure (ToppingStructure) {
+  description (Structure to handle checkbox input)
+  property (pepperoni) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (sausage) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (ham) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (chicken) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (bacon) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (mushrooms) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (black0olives) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (onions) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (green0peppers) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (garlic) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (tomato) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (basil) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (cheese) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+  property (extra0cheese) {
+    type (viv.core.Boolean)
+    visibility (Private)
+  }
+
+}

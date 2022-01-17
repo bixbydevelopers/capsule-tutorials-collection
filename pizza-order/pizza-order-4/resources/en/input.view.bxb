@@ -1,0 +1,104 @@
+input-view {
+  match: GetInputAction~possibleInputs {
+    to-input: GetInputAction (action)
+  }
+
+  message {
+    template (What would you like on your pizza?)
+  }
+  render {
+    form {
+      elements {
+        checkbox {
+          id (pepperoni)
+          type (viv.core.Boolean)
+          primary-text ("Pepperoni")
+        }
+        checkbox {
+          id (sausage)
+          type (viv.core.Boolean)
+          primary-text ("Sausage")
+        }
+        checkbox {
+          id (ham)
+          type (viv.core.Boolean)
+          primary-text ("Ham")
+        }
+        checkbox {
+          id (chicken)
+          type (viv.core.Boolean)
+          primary-text ("Chicken")
+        }
+        checkbox {
+          id (bacon)
+          type (viv.core.Boolean)
+          primary-text ("Bacon")
+        }
+        checkbox {
+          id (mushrooms)
+          type (viv.core.Boolean)
+          primary-text ("Mushrooms")
+        }
+        checkbox {
+          id (black0olives)
+          type (viv.core.Boolean)
+          primary-text ("Black Olives")
+        }
+        checkbox {
+          id (onions)
+          type (viv.core.Boolean)
+          primary-text ("Onions")
+        }
+        checkbox {
+          id (green0peppers)
+          type (viv.core.Boolean)
+          primary-text ("Green Peppers")
+        }
+        checkbox {
+          id (garlic)
+          type (viv.core.Boolean)
+          primary-text ("Garlic")
+        }
+        checkbox {
+          id (tomato)
+          type (viv.core.Boolean)
+          primary-text ("Tomato")
+        }
+        checkbox {
+          id (basil)
+          type (viv.core.Boolean)
+          primary-text ("Basil")
+        }
+        checkbox {
+          id (cheese)
+          type (viv.core.Boolean)
+          primary-text ("Cheese")
+        }
+        checkbox {
+          id (extra0cheese)
+          type (viv.core.Boolean)
+          primary-text ("Extra Cheese")
+        }
+      }
+      on-submit {
+        goal: ToppingStructure
+        value: ToppingStructure {
+          pepperoni: viv.core.FormElement (pepperoni)
+          sausage: viv.core.FormElement (sausage)
+          hame: viv.core.FormElement (ham)
+          chicken: viv.core.FormElement (chicken)
+          bacon: viv.core.FormElement (bacon)
+          mushrooms: viv.core.FormElement (mushrooms)
+          black0olives: viv.core.FormElement (black0olives)
+          onions: viv.core.FormElement (onions)
+          green0peppers: viv.core.FormElement (green0peppers)
+          garlic: viv.core.FormElement (garlic)
+          tomato: viv.core.FormElement (tomato)
+          basil: viv.core.FormElement (basil)
+          cheese: viv.core.FormElement (cheese)
+          extra0cheese: viv.core.FormElement (extra0cheese)
+        }
+      }
+    }
+  }
+}
