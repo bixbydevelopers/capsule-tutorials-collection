@@ -85,7 +85,7 @@ input-view {
         value: ToppingStructure {
           pepperoni: viv.core.FormElement (pepperoni)
           sausage: viv.core.FormElement (sausage)
-          hame: viv.core.FormElement (ham)
+          ham: viv.core.FormElement (ham)
           chicken: viv.core.FormElement (chicken)
           bacon: viv.core.FormElement (bacon)
           mushrooms: viv.core.FormElement (mushrooms)
