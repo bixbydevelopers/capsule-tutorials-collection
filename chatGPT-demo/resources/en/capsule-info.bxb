@@ -1,0 +1,10 @@
+capsule-info {
+  display-name (Example Fact Capsule)
+  developer-name (Example Developer)
+  icon-asset (images/icons/bixby_launcher.png) // Change to your capsule's icon
+  description ("Example fact capsule. A great starting point to build a capsule for Bixby")
+  search-keywords {
+    keyword (fact)
+  }
+  dispatch-name (Example Fact)
+}

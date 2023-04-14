@@ -1,0 +1,23 @@
+capsule {
+  id (playground.chatGPTJokeDemo)
+  version (1.0.0)
+  format(3)
+  runtime-version (2) {
+    js-runtime-version (2)
+  }
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  capsule-imports {
+    import (viv.core) {
+      as (core)
+    }
+  }
+
+  store-countries {
+    all
+  }
+  store-sections {
+    section (GamesAndFun)
+  }
+}
