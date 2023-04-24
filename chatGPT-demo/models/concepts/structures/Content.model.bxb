@@ -1,0 +1,13 @@
+structure (Content) {
+  description (Output)
+  property (text) {
+    type (core.Text)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (image) {
+    type (core.BaseImage)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+}

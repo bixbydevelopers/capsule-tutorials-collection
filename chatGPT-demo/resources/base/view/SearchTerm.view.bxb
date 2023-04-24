@@ -1,0 +1,13 @@
+input-view {
+  match: SearchTerm (this)
+
+  message {
+    template (What would you like ChatGPT to joke about?){
+      speech (What would you like Chat G P T to joke about?)
+    }
+  }
+
+  render {
+    // appropriate input component
+  }
+}
